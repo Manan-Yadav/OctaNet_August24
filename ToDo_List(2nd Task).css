@@ -113,7 +113,7 @@ ul li p {
 }
 
 .fa-trash {
-    color: rgba(233, 41, 41, 0.979);
+    color: rgba(247, 9, 9, 0.979);
 }
 
 .fa-file-pen {
@@ -127,3 +127,22 @@ ul li p {
     font-size: larger;
     font-weight: bolder;
 }
+.fa-trash:hover {
+    transform: scale(1.2);
+}
+.fa-file-pen:hover {
+  transform: scale(1.2);
+}
+.fa-check:hover {
+    transform: scale(1.2);
+}
+.fa-trash:active{
+    color: white;
+}
+.fa-file-pen:active {
+  color: white;
+}
+.fa-check:active {
+   color: white;
+}
+
